@@ -80,11 +80,11 @@ Perform the pathway search for MetaCyc, MetaCyc BNICE-curated, ATLASx and ATLASx
 `$ python3 check_coverage_and_rank_pathways.py`
 
 Running this script will produce 5 output files within the output folder:
-# networkEdgesCoverage.csv
-# pw_ranking_chemATLAS_hp.csv
-# pw_ranking_chemATLAS.csv
-# pw_ranking_MetaCyc_hp.csv
-# pw_ranking_MetaCyc.csv
+- networkEdgesCoverage.csv
+- pw_ranking_chemATLAS_hp.csv
+- pw_ranking_chemATLAS.csv
+- pw_ranking_MetaCyc_hp.csv
+- pw_ranking_MetaCyc.csv
 
 As the script takes long time to be executed we recommend to use the existing files
 that are stored in "output_generated_for_article" folder for plotting (copy them to output folder):
